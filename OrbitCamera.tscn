@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://OrbitCamera.gd" type="Script" id=1]
+
+[node name="OrbitCamera" type="Spatial"]
+script = ExtResource( 1 )
+__meta__ = {
+
+}
+
+[node name="RotationHelper" type="Spatial" parent="."]
+__meta__ = {
+
+}
+
+[node name="Camera" type="Camera" parent="RotationHelper"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 10 )
+current = true
+fov = 50.0
+__meta__ = {
+
+}
