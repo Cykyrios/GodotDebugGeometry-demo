@@ -12,7 +12,7 @@ _global_script_classes=[ {
 "base": "ImmediateGeometry",
 "class": "DebugGeometry",
 "language": "GDScript",
-"path": "res://DebugGeometry.gd"
+"path": "res://GodotDebugGeometry/DebugGeometry.gd"
 } ]
 _global_script_class_icons={
 "DebugGeometry": ""
@@ -20,7 +20,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="DebugGeometry"
+config/name="DebugGeometry-demo"
 run/main_scene="res://MainScene.tscn"
 config/icon="res://icon.png"
 

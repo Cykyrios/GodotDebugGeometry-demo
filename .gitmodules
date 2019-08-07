@@ -1,0 +1,3 @@
+[submodule "GodotDebugGeometry"]
+	path = GodotDebugGeometry
+	url = https://github.com/Cykyrios/GodotDebugGeometry.git
